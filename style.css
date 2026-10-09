@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e2d9d9;
+}
+
+header {
+    background-color: #4CAF50;
+    color: rgb(6, 221, 70);
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+section {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 0.5;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ee0808;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+p{
+    margin: 20px;
+    line-height: 1.6;
+}
+
+.profile-pic {
+    display: block;
+    margin-left: 20px;
+    margin-right: auto;
+    object-fit: cover;
+    width: 500px;
+    height: 550px;
+    object-fit: cover;
+}
+
+div a{
+    text-decoration: none;
+    color: #ee0808;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+div h3{
+    color: #333;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin: 20px;
+}
+
+div img{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 20px 0;
+    
+}
